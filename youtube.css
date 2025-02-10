@@ -361,6 +361,22 @@ main.move-right {
   .right-section {
     display: none;
   }
+  .sidebar {
+    width: 40px;
+  }
+  main {
+    margin-left: 55px;
+  }
+  .sidebar-link img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .hamburger-menu {
+    height: 19px;
+    margin-left: 14px;
+    margin-right: 5px;
+  }
 }
 
 @media only screen and (min-width: 651px) and (max-width: 930px) {
