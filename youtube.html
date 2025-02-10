@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="youtube.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img src="pictures/menu-top.png" class="hamburger-menu" />
+        <a href="#">
+          <img src="pictures/youtube-logo.png" class="youtube-logo" />
+        </a>
+      </div>
+
+      <div class="middle-section">
+        <input class="search-box" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img src="pictures/search.svg" class="search-icon" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img src="pictures/voice-search-icon.svg" class="voice-search-icon" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="pictures/upload.png" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps-icon-container">
+          <img class="youtube-apps-icon" src="pictures/application.png" />
+          <div class="tooltip">Our Apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="pictures/notification.png" />
+          <div class="notifications-count">4</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="channel-icon" src="pictures/my-channel1.jpg" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="pictures/home.png" />
+        <div>Home</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="pictures/compass.png" />
+        <div>Explore</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="pictures/subscribe.png" />
+        <div>Subscriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="pictures/video.png" />
+        <div>Shorts</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="pictures/next.png" />
+        <div>Music</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="pictures/library.png" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid js-videos-grid"></section>
+    </main>
+
+    <script src="javascript.js" type="module"></script>
+  </body>
+</html>
